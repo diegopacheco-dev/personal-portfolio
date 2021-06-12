@@ -1,40 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <nav id="navbar">
+      <div class="navbar-container">
         <ul>
-            <li><a href="#welcome-section">About</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><a class="nav-link" href="#welcome-section">About</a></li>
+          <li><a class="nav-link" href="#projects">Work</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
+      </div>
     </nav>
     <section id="welcome-section">
-        <h1>Hey I am Diego</h1>
-        <p>a web developer</p>
+      <h1>PORTFOLIO</h1>
+      <div class="info-container">
+        <p class="info__name"><strong>DIEGO PACHECO</strong></p>
+        <p class="info__profession">WEB DEVELOPER</p>
+      </div>
     </section>
 
     <section id="projects">
-        <h2 class="projects__title">These are some of my projects</h2>
-        <div class="projects-container">
-            <article class="project-tile">
-                <a href=""></a>
-            </article>
-        </div>
-        
+      <h2 class="projects__title">These are some of my projects</h2>
+      <div class="projects-container">
+        <article class="project-tile">
+          <div class="project__img">
+            <img src="./images/proyect1-preview.jpg" alt="" />
+            <div class="project__links">
+              <a href="" class="project-link"><i>View project</i></a>
+              <a href="" class="project-github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h4 class="project__name">Profile card component</h4>
+        </article>
+
+        <article class="project-tile">
+          <div class="project__img">
+            <img src="./images/2.webp" alt="" />
+            <div class="project__links">
+              <a href="" class="project-link"><i>View project</i></a>
+              <a href="" class="project-github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h4 class="project__name">FAQ accordion card</h4>
+        </article>
+
+        <article class="project-tile">
+          <div class="project__img">
+            <img src="./images/proyect2-preview.jpg" alt="" />
+            <div class="project__links">
+              <a href="" class="project-link"><i>View project</i></a>
+              <a href="" class="project-github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h4 class="project__name">Huddle landing page</h4>
+        </article>
+
+        <article class="project-tile">
+          <div class="project__img">
+            <img src="./images/proyect5-preview.jpg" alt="" />
+            <div class="project__links">
+              <a href="" class="project-link"><i>View project</i></a>
+              <a href="" class="project-github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h4 class="project__name">Profile card component</h4>
+        </article>
+
+        <article class="project-tile">
+          <div class="project__img">
+            <img src="./images/bank-landing-page.webp" alt="" />
+            <div class="project__links">
+              <a href="" class="project-link"><i>View project</i></a>
+              <a href="" class="project-github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h4 class="project__name">Easybank landing page</h4>
+        </article>
+
+        <article class="project-tile">
+          <div class="project__img">
+            <img src="./images/product-page.png" alt="" />
+            <div class="project__links">
+              <a href="" class="project-link"><i>View project</i></a>
+              <a href="" class="project-github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h4 class="project__name">Product page</h4>
+        </article>
+
+        <article class="project-tile">
+          <div class="project__img">
+            <img src="./images/technical-documentation-page.png" alt="" />
+            <div class="project__links">
+              <a href="" class="project-link"><i>View project</i></a>
+              <a href="" class="project-github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h4 class="project__name">Technical documentation page</h4>
+        </article>
+      </div>
     </section>
 
     <section id="contact">
-        <a href="https://github.com/ericksonder" id="profile-link">Github</a>
+      <a href="https://github.com/ericksonder" id="profile-link">Github</a>
     </section>
-</body>
+  </body>
 
-<script src="main"></script>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="main"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
